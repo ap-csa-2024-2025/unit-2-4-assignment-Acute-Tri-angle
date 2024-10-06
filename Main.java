@@ -22,7 +22,7 @@ public class Main
     stringManip(s1, s2);
   }
   public static String lastFirstN(String s1, String s2, int n){
-    return s1.substring(s1.length() - n, s1.length()) + s2.substring(40, n);
+    return s1.substring(s1.length() - n, s1.length()) + s2.substring(0, n);
   }
   public static void stringManip(String x, String y){
     String a = x.toUpperCase();
