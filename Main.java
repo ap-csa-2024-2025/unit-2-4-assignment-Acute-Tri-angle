@@ -20,6 +20,7 @@ public class Main
     System.out.println("Second String?");
     s2 = sc.nextLine();
     stringManip(s1, s2);
+    sc.close();
   }
   public static String lastFirstN(String s1, String s2, int n){
     return s1.substring(s1.length() - n, s1.length()) + s2.substring(0, n);
